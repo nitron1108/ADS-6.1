@@ -33,7 +33,7 @@ class TPQueue {
     if (!front || item.prior > front->value.prior) {
       node->nextNode = front;
       front = node;
-      if(!back){
+      if (!back) {
         back = front;
     }
     return;
