@@ -66,6 +66,7 @@ class TPQueue {
   }
     delete temp;
     return result;
+  }
 
   bool empty() const {
     return front == nullptr;
